@@ -3,4 +3,5 @@ class Person
   
   def initialize(avi_attributes)
     abi_attirbutes.each {|key, value| self.send(("#{key}="), value)}
+  end 
 end
