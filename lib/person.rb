@@ -5,5 +5,3 @@ class Person
     avi_attributes.each {|key, value| self.send(("#{key}="), value)}
   end 
 end
-
-learn submit 
